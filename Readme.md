@@ -6,6 +6,7 @@
 docker build --build-arg JAR_FILE=build/libs/demo-1.1.2-SNAPSHOT.jar  -t idsvnasia/demo-spring-boot:1.1.2  .
 #
 #
+# List Docker images:
 kuber@kafka:~/devops-interview-test-1/demo$ docker images
 REPOSITORY                   TAG            IMAGE ID       CREATED         SIZE
 idsvnasia/demo-spring-boot   1.1.2          ff9bfcabe150   5 minutes ago   122MB
